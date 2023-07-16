@@ -1,0 +1,16 @@
+.navbar {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+}
+
+.logo {
+  display: inline;
+}
+
+.nav {
+  display: flex;
+  align-self: 'flex-end';
+  color: aquamarine;
+  background-color: blue;
+}

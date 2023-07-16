@@ -1,9 +1,11 @@
 import React from'react';
+import './Navigation.css';
 
 const Navigation = () => {
   return (
-    <nav style={{ display: 'flex', justifyContent: 'flex-end' }}>
-      <p>Sign out</p>
+    <nav className='navbar'>
+      <p className='logo'>Company Logo</p>
+      <p className='nav'>Sign out</p>
     </nav>
   )
 }
