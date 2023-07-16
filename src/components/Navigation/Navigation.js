@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <nav className='navbar'>
       <p className='logo'>Company Logo</p>
-      <p className='nav'>Sign out</p>
+      <p className='signout-button'>Sign out</p>
     </nav>
   )
 }
