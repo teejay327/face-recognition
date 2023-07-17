@@ -7,6 +7,9 @@
 
 .logo {
   display: inline;
+  background-color: blue;
+  border: dashed 5px white;
+  margin: 0,3em,0,3em;
 }
 
 .signout-button {
@@ -15,4 +18,5 @@
   background-color: blue;
   padding: 10px;
   margin: 0, 40px, 5px, 0;
+  height:fit-content;
 }
