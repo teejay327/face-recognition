@@ -1,0 +1,22 @@
+.imageForm {
+  background-color: mediumorchid;
+  color: white;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  border-radius: 2px;
+  box-shadow: 2px;
+}
+
+.inputForm {
+  width: 600px;
+}
+
+.buttonForm {
+  width: 100px;
+  background-color: blue;
+  color: aquamarine;
+}
+
