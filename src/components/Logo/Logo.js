@@ -1,6 +1,8 @@
 import React from 'react';
 import { Tilt } from 'react-tilt';
 import './Logo.css';
+import logo from './AI-Face.jpg';
+
 
 const Logo = () => {
   const defaultOptions = {
@@ -18,7 +20,9 @@ const Logo = () => {
   return (
     <div className='logo'>
     <Tilt options={defaultOptions} style={{ height: 150, width: 150 }}>
-      <div>👽</div>
+      <div>
+        <img src={ logo } alt='logo'/>
+      </div>
     </Tilt>
     </div>
   );
