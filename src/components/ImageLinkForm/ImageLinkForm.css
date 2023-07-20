@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   border-radius: 2px;
-  box-shadow: 2px;
+  height: 24px;
 }
 
 .inputForm {

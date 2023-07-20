@@ -5,7 +5,7 @@ const ImageLinkForm = () => {
   return (
     <div>
       <p className='imageForm'>Search for faces in images by pasting in a URL!</p>
-      <div>
+      <div className='inputContainer'>
         <input className='inputForm' type='text'></input>
         <button className='buttonForm'>Detect</button>
       </div>
