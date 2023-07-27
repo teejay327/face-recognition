@@ -3,8 +3,7 @@ import Navigation from './components/Navigation/Navigation';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import './App.css';
 
-
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navigation />
