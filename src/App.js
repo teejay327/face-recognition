@@ -8,7 +8,7 @@ const App = () => {
     <div className="App">
       <Navigation />
       <ImageLinkForm />
-     {/* <FaceRecognition />*/}
+     <FaceRecognition />
     </div>
   );
 }
