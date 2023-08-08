@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navigation from './components/Navigation/Navigation';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
+import Animation from './components/Animation/Animation';
 import './App.css';
 
 /*
@@ -73,6 +74,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation />
+        <Animation/>
         <ImageLinkForm 
           onInputChange={ this.onInputChange } 
           onButtonSubmit={ this.onButtonSubmit }/>
