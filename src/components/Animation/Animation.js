@@ -5,7 +5,11 @@ const Animation = () => {
 
   return (
     <div>
-      Animation
+      anime({
+       targets: '.duration-demo .el',
+        translateX: 250,
+        duration: 3000
+});
     </div>
   )
 }
