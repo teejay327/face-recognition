@@ -14,7 +14,7 @@ import './App.css';
       const APP_ID = 'face-recognition-app';
       // Change these to whatever model and image URL you want to use
       const MODEL_ID = 'face-detection';
-      // const MODEL_VERSION_ID = 'aa7f35c01e0642fda5cf400f543e7c40';    
+      // const MODEL_VERSION_ID = 'aa7f35c01e0642fda5cf400f543e7c40';   DEFAULT= LATEST VERSION 
       // const IMAGE_URL = 'https://samples.clarifai.com/metro-north.jpg';
       const IMAGE_URL = imageUrl;
 
@@ -51,9 +51,9 @@ import './App.css';
     // this will default to the latest version_id
 
     fetch("https://api.clarifai.com/v2/models/" + MODEL_ID + "/outputs", returnClarifaiRequestOptions())
-        .then(response => response.text())
-        .then(result => console.log(result))
-        .catch(error => console.log('error', error));
+        .then(response => response.json())   // json replaced text
+        //.then(result => console.log(result))
+        //.catch(error => console.log('error', error));
 */
 
 class App extends Component {
@@ -74,7 +74,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation />
-        <Animation/>
+      {/*  <Animation/> */}
         <ImageLinkForm 
           onInputChange={ this.onInputChange } 
           onButtonSubmit={ this.onButtonSubmit }/>
